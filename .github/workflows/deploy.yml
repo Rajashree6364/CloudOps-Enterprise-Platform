@@ -1,0 +1,13 @@
+name: CloudBite CI/CD Pipeline
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build Web App
+        run: echo "Building CloudBite Web Application..."
+      - name: Deploy to AWS EKS
+        run: echo "Deploying containerized microservices to AWS EKS Cluster..."

@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudbite-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cloudbite
+  template:
+    metadata:
+      labels:
+        app: cloudbite
+    spec:
+      containers:
+      - name: cloudbite-app
+        image: rajashreem14/cloudbite:latest
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloudbite-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 3000
+  selector:
+    app: cloudbite
