@@ -1,4 +1,4 @@
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/acc6536c-6fae-4e1c-8528-fdd6639a1b05" /># CloudBite - CloudOps Enterprise Food Delivery Platform
+# CloudBite - CloudOps Enterprise Food Delivery Platform
 This repository contains the complete frontend web application and backend infrastructure code for CloudBite.
 
 ## Folder Structure
