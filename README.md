@@ -8,16 +8,7 @@ This repository contains the complete frontend web application and backend infra
 - `kubernetes/`: AWS EKS Kubernetes deployment manifests.
 - `terraform/`: Infrastructure-as-Code Terraform scripts for AWS VPC, EKS, and RDS.
 - CloudOps-Enterprise-Platform/
-├── index.html                  # Core Web Application (Amplify V9 Dashboard)
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Actions CI/CD Pipeline
-├── app/
-│   ├── Dockerfile              # Node.js Containerization Setup
-│   └── server.js               # Backend Microservice Endpoint
-├── kubernetes/
-│   └── deployment.yaml         # Amazon EKS Kubernetes Manifests
-├── terraform/
-│   └── main.tf                 # Terraform Infrastructure-as-Code Scripts
-└── README.md                   # Project Documentation
+CloudBite is an enterprise-grade cloud kitchen and autonomous delivery platform built as your Unlox Academy CloudOps capstone project.
+
+It features a full-stack architecture powered by AWS Amplify, Amazon EKS container microservices, Amazon RDS PostgreSQL, Amazon DynamoDB, Amazon Kinesis telemetry streaming, and AWS SageMaker AI for predictive delivery routing—fully integrated with an AppSheet Partner Admin Portal for live kitchen management.
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/eaed1e98-9ba9-4bd2-a9b8-a824751d60a7" />
